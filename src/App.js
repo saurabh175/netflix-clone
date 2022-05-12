@@ -3,11 +3,13 @@ import Row from "./Row";
 import requests from "./request";
 import "./App.css";
 import Banner from './Banner'
+import  Navbar  from "./Navbar";
+
 const App = () => {
   return (
     
     <div className='App'>
-
+    <Navbar/>
     <Banner fechUrl={requests.fechNetflixOriginals} />
       <Row title='Netflix Originals' fechUrl={requests.fechNetflixOriginals} isLargeRow={true}/>
       <Row title='Trending Now' fechUrl={requests.fechTrending} isLargeRow={false}/>

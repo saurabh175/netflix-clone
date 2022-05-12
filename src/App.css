@@ -1,6 +1,12 @@
 .App {
-    background-color: white;
-    margin: 0;
+    margin: 10px 10px;
+    background-color: #111;
+    color: white;
+    overflow-x: hidden;
+}
+
+.body {
+    background-color: #111;
 }
 
 .App-header {

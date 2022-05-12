@@ -11,8 +11,8 @@ const Banner = ({ fechUrl }) => {
      
       const request = await axios.get(`http://api.themoviedb.org/3${fechUrl}`);
         
-      console.log(Math.floor(Math.random()*3));
-      setmovies(request.data.results[Math.floor(Math.random()*3)]);
+      console.log(Math.floor(Math.random()*20));
+      setmovies(request.data.results[Math.floor(Math.random()*20)]);
       return request;
     }
     fechdata();
@@ -31,11 +31,15 @@ const Banner = ({ fechUrl }) => {
       <div className='button'>
         <button className='playbutton'>play</button>
 
-        <button className='trailerbutton'>Trailer</button>
+        <button className='trailerbutton'>My List</button>
       </div>
       <div className='description'>
         <h5>{movies.overview}</h5>
       </div>
+      <div className="banner-fade">
+        
+      </div>
+      
     </div>
   );
 };

@@ -1,0 +1,48 @@
+.nav-barimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 1;
+    overflow-x: hidden;
+}
+
+.nav-barimg2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 1;
+    margin-right: 30px;
+    background-color: aquamarine;
+    color: aquamarine;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 97.88npm vw;
+    align-items: center;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    left: 9px;
+    right: 0px;
+    opacity: .6;
+}
+
+.nav-black {
+    background-color: #111;
+    transition: all .5s;
+    top: 0px;
+    opacity: 1;
+    right: 10px;
+    transition-timing-function: ease-in;
+}
